@@ -10,3 +10,29 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+ul{
+    list-style: none;
+    padding: 0;
+    border: none;
+    overflow: hidden;
+}
+
+button{
+    border: none;
+    height: 40px;
+}
+
+.songbtn:hover, .songbtn:focus{
+    filter: brightness(150%);
+}
+
+.controls{
+    text-align: center;
+    border-radius: 30px;
+    width: 40px;
+}
+
+.dark{
+    background-color: rgb(51, 50, 50);
+}
