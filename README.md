@@ -1,42 +1,42 @@
-# Hello World with React boilerplate
 
-Start coding a react application
+# AudioPlayer en React
 
-> If you are working locally instead of using codespaces or gitpod, please follow [local installation steps].(#local-installation) and come back to this part of the readme.
+Este es un reproductor de audio interactivo desarrollado con React. Permite cargar canciones desde una API pública y cuenta con controles para reproducir, pausar y cambiar entre pistas.
 
-## How to start coding?
+## Características
 
-- Install the packages with `$ npm install`.
-- Run the webpack server with `$ npm run start`
+- **Lista dinámica de canciones**: Las canciones se obtienen desde una API pública.
+- **Controles de reproducción**: Permite reproducir, pausar y navegar entre pistas.
+- **Uso de React Hooks**: Implementación con `useState` y `useEffect` para manejar el estado y los eventos.
 
-You can update the `styles/index.css` or `js/index.js` depending on your needs.
-Add more files into your, `./src/js/components` or styles folder as you need them.
+## Tecnologías Utilizadas
 
-## Local Installation (skip if you are working on codespaces or gitpod)
+- React
+- React Hooks
+- Bootstrap para el diseño del reproductor
+- FontAwesome para iconos
 
-Download the boilerplate using git
+## Instalación
 
-```
-$ git clone https://github.com/4GeeksAcademy/react-hello.git
-$ cd react-hello
-```
+1. Clona este repositorio:
 
-## Publish your website!
+   ```bash
+   git clone https://github.com/cristoferapr/audioplayer-react.git
+   ```
 
-This boilerplate is 100% compatible with the free [github pages](https://pages.github.com/) and [vercel](https://vercel.com/) hosting.
+2. Instala las dependencias:
 
-It takes just 2 minutes to deploy, [click here to start the process](https://github.com/4GeeksAcademy/react-hello/blob/master/docs/DEPLOY.md).
+   ```bash
+   npm install
+   ```
 
-## Other features
+3. Inicia el servidor de desarrollo:
 
-- Automatic Code Formatting: Use of [Prettier](https://prettier.io/) for automatic code indentation and formatting.
-- Error reporting: Use of [eslint](https://eslint.org/) for better error reporting.
-- Hot Deploy: Use of [Webpack Development Server](https://webpack.js.org/configuration/dev-server/) for hot deploy and live reload.
-- One-command publish of the code to github pages with `npm run deploy:github`.
-- Babel 7 (really fast).
+   ```bash
+   npm start
+   ```
 
-### Contributors
+## Uso
 
-This template was built as part of the [Full Stack Developer course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer) at [4Geeks Academy Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and [many other contributors](https://github.com/4GeeksAcademy/react-hello/graphs/contributors).
-
-You can find other templates and resources like this at the [school github page](https://github.com/4geeksacademy/).
+- Abre el navegador en `http://localhost:3000`.
+- Selecciona una canción de la lista y utiliza los controles para reproducirla.
